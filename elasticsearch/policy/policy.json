@@ -1,0 +1,43 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "logs:CreateLogStream*",
+                "logs:PutLogEvents*",
+                "cloudwatch:Put*",
+                "logs:List*",
+                "logs:Put",
+                "ec2:Describe*",
+                "ec2messages:*",
+                "s3:List*",
+                "s3:Put*",
+                "s3:Get*",
+                "ssmmessages:*",
+                "ssm:*",
+                "route53:UpdateHostedZoneComment",
+                "route53:GetHostedZone",
+                "route53:ListHostedZones",
+                "route53:ChangeResourceRecordSets",
+                "route53:ListResourceRecordSets",
+                "route53:GetHostedZoneCount",
+                "route53:ListHostedZonesByName",
+                "route53resolver:CreateResolverEndpoint",
+                "route53resolver:ListResolverEndpoints",
+                "ec2:CreateNetworkInterface",
+                "ec2:CreateNetworkInterfacePermission",
+                "ec2:DescribeAvailabilityZones",
+                "ec2:DescribeNetworkInterfaces",
+                "ec2:DescribeSecurityGroups",
+                "ec2:DescribeSubnets",
+                "ec2:DescribeVpcs"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+        
+    ]
+}
