@@ -108,7 +108,7 @@ cluster.initial_master_nodes: master-us-east-1a,master-us-east-1b,master-us-east
 bootstrap.memory_lock: true
 node.master: true
 node.data: false
-node.ingest: false
+node.ingest: true
 logger.level: DEBUG
 #logger.level: ERROR
 logger.discovery: DEBUG
